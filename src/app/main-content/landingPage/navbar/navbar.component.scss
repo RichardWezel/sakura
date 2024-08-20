@@ -1,0 +1,58 @@
+p{
+    color: red;
+    font-size: 60px;
+    display: flex;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 40px;
+    > img{
+        padding-left: 30px;
+    }
+    > div {
+        display: flex;
+        align-items: center;
+        padding-right: 40px;
+        > a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-family: 'Raleway';
+            &:hover {
+                color: red;
+            }
+        }
+        > div {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-family: 'Raleway';
+            padding-right: 30px;
+            margin-left: 40px;
+            background-color: rgb(119, 24, 24);
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid white;
+            cursor: pointer;
+                &:hover {
+                    color: red;
+                }
+            > img{
+                height: 20px;
+                margin-right: 10px;
+            }
+            > a {
+                text-decoration: none;
+                
+            }
+        }
+        
+    }
+}

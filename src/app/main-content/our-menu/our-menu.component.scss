@@ -1,0 +1,54 @@
+article {
+    background-image: url('/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    padding: 100px;
+    font-family: 'Raleway';
+    >h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        color: rgb(119, 24, 24);
+        margin-bottom: 50px;
+    }
+}
+
+.dish-img-left {
+    padding: 30px;
+}
+
+.dish-img-right {
+    justify-content: end;
+}
+
+.dish {
+    display: flex;
+    >img {
+        height: 250px;
+    }
+    >div {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        width: 40%;
+    }
+}
+
+.menu-name {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.menu-options {
+    color: rgb(89, 86, 86);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-component {
+    display: flex;
+    justify-content: space-between;
+}
+

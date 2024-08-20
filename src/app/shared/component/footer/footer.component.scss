@@ -1,0 +1,30 @@
+article {
+    background-color: rgb(12,20,29);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    >div{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div{
+            >a {
+                >img{
+                    height: 30px;
+                }
+            }
+            
+        }
+        >a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Raleway';
+            &:hover {
+                color: red;
+            }
+        }
+    }
+    
+}
+
