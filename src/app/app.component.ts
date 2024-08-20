@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './shared/component/footer/footer.component';
 import { ImprintComponent } from "./imprint/imprint.component";
+import { LandingPageComponent } from "./main-content/landingPage/landingPage.component";
 
 
 @Component({
@@ -13,7 +14,8 @@ import { ImprintComponent } from "./imprint/imprint.component";
     MainContentComponent,
     ImprintComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
+    LandingPageComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
